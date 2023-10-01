@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Exo 2", sans-serif;
+}
+
+header {
+  background-image: url(Rectangle\ 45.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+.navbar {
+  display: flex;
+  text-align: right;
+  background-color: #f5f1f148;
+}
+.penitus-intro {
+  font-size: 16px;
+  width: 100%;
+  height: 17%;
+  padding-bottom: 5%;
+}
+.navbar a {
+  float: left;
+  font-family: "Exo 2", sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: flex;
+  text-align: left;
+}
+
+/* On hover, the links will change color */
+
+.home {
+  height: 40vw;
+  width: 100vw;
+  text-align: center;
+  color: white;
+  font-family: "Exo 2", sans-serif;
+  font-size: 32px;
+}
+.rest {
+  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+.body2 {
+  padding: 50px;
+  height: 100vh;
+  text-align: center;
+  font-family: "Exo 2", sans-serif;
+  font-size: 16px;
+}
+.what {
+  justify-content: space-around;
+  padding-right: 5%;
+  height: 5%;
+}
+.carousel {
+  padding-top: 2%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  justify-items: flex-end;
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+}
+.image-container {
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 22px;
+  width: 300px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  background-color: #f5f1f1;
+  background-size: cover; /* Adjust the sizing as needed */
+  background-position: center; /* Center the image within the container */
+  border-radius: 24px; /* Optional border around the container */
+}
+.image-container image {
+  text-align: center;
+}
+.con2 {
+  border: 14px;
+  border-color: none;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 22px;
+  width: 300px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  background-color: #f5f1f1;
+  background-size: cover; /* Adjust the sizing as needed */
+  background-position: center; /* Center the image within the container */
+  border-radius: 24px; /* Optional border around the container */
+}
+.con3 {
+  border: 14px;
+  border-color: none;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 22px;
+  width: 300px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  background-color: #f5f1f1;
+  background-size: cover; /* Adjust the sizing as needed */
+  background-position: center; /* Center the image within the container */
+  border-radius: 24px; /* Optional border around the container */
+}
+.body3 {
+  background-image: url(Rectangle\ 50.png);
+  background-repeat: no-repeat;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  color: #ffffff;
+  font-family: "Exo 2", sans-serif;
+  padding: 45px;
+  justify-content: space-around;
+  font-weight: 100;
+  border: none;
+}
+.body3 p {
+  padding-top: 38px;
+}
+h2 {
+  font-style: normal;
+  font-display: 300;
+  font-weight: 100;
+}
+/* .clients-container{
+  padding-top: 44px;
+  padding-bottom: 44px;
+  padding-left: 25%;
+  padding-right: 25%;
+  background-color: #101B56;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+} */
+.numbers {
+  padding-top: 44px;
+  padding-bottom: 44px;
+  padding-left: 25%;
+  padding-right: 25%;
+  background-color: #101b56;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+}
+.numbers p{
+  font-size: 10px;
+  text-align: center;
+}
+.trustee {
+  height: 75vh;
+  padding-top: 2%;
+  text-align: center;
+}
+.contact-container {
+  margin-top: 45px;
+  color: #ffffff;
+  background-color: #101b56;
+  width: 162px;
+  height: 42px;
+  border-radius: 12px;
+}
+.sitemap h1{
+  padding-bottom: 40px;
+}
+.sitemap p{
+  padding-top: 10px;
+}
+.sitemap {
+  height: 75vh;
+  width: 100vw;
+  background-color: black;
+  color: white;
+  padding-left: 5%;
+  padding-top: 5%;
+  float: left;
+}
+@media (max-width: 600px) {
+  header {
+    margin-right: 0%;
+    background-image: url(Rectangle\ 45.jpg);
+    height: 70vh;
+  }
+  .home {
+    padding-top: 10%;
+    font-size: 16px;
+  }
+  .body2 {
+    font-size: 8px;
+    height: 100%;
+    padding: auto;
+    padding-top: 10px;
+  }
+  .penitus-intro {
+    font-size: 10px;
+  }
+
+  .image-container {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 22px;
+    width: 250px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    background-color: #f5f1f1;
+    background-size: cover; /* Adjust the sizing as needed */
+    background-position: center; /* Center the image within the container */
+    border-radius: 24px; /* Optional border around the container */
+    margin: 10px;
+  }
+  .image-container image {
+    text-align: center;
+  }
+  .carousel{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .con2 {
+    border: 14px;
+    border-color: none;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 22px;
+    padding-right: 20px;
+    width: 250px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    background-color: #f5f1f1;
+    background-size: cover; /* Adjust the sizing as needed */
+    background-position: center; /* Center the image within the container */
+    border-radius: 12px; /* Optional border around the container */
+    margin: 10px;
+  }
+  .con3 {
+    border: 14px;
+    border-color: none;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 22px;
+    width: 250px; /* Adjust the width as needed */
+    height: 200px; /* Adjust the height as needed */
+    background-color: #f5f1f1;
+    background-size: cover; /* Adjust the sizing as needed */
+    background-position: center; /* Center the image within the container */
+    border-radius: 24px; /* Optional border around the container */
+    padding-right: 10px;
+    margin: 10px;
+  }
+
+  .body3 {
+    text-align: left;
+    font-size: 10px;
+    padding-left: 3%;
+    height: 65vh;
+    background-color: #ffffff;
+  }
+  .trustee {
+    padding: 2%;
+    font-size: 8px;
+    height: 30vh;
+  }
+  .numbers h2{
+    font-size: 20px;
+
+  }
+  .numbers p{
+    padding-right: 10.5vw;
+  }
+  .sitemap {
+    height: 25vh;
+    font-size: 10px;  
+  }
+}
+@media (max-width: 996px) {
+  header{
+    height: 50vh;
+  }
+  .home {
+    font-size: 16px;
+    padding: 10%;
+  }
+  .body2{
+    height: 70%;
+  }
+  .body3{
+    height: 60vh;
+  }
+  .trustee{
+    height: 30vh;
+  }
+  .sitemap{
+    height: 40vh;
+  }
+}
